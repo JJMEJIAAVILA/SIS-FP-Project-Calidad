@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIS-FP Project – Control y Calidad del Software</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <img src="Sena_logo.png" alt="Logo SENA" class="logo">
+    <h1>SIS-FP Project</h1>
+    <h2>Control y Calidad del Software</h2>
+  </header>
+
+  <section class="intro">
+    <h2>Introducción</h2>
+    <p>
+      El <strong>SIS-FP Project</strong> es una solución integral para la gestión de seguridad portuaria desarrollada bajo criterios de calidad y buenas prácticas del software.
+      Esta landing presenta los <strong>instrumentos de documentación y control de calidad</strong> aplicados al proceso de desarrollo del sistema, siguiendo los lineamientos de la evidencia 
+      <strong>GA11-220501098-AA1-EV03</strong> y los fundamentos de calidad establecidos en normas como ISO 25000 y CMMI.
+    </p>
+  </section>
+
+  <section class="practicas">
+    <h2>Buenas Prácticas de Calidad Aplicadas</h2>
+    <table>
+      <tr>
+        <th>Buena Práctica</th>
+        <th>Marco de Referencia</th>
+        <th>Descripción</th>
+        <th>Beneficio</th>
+      </tr>
+      <tr>
+        <td>Revisión por pares de código</td>
+        <td>CMMI / ISO 9001</td>
+        <td>Validación colaborativa del código antes de su integración final.</td>
+        <td>Reduce errores tempranos y mejora la mantenibilidad.</td>
+      </tr>
+      <tr>
+        <td>Control de versiones</td>
+        <td>SCRUM / DevOps</td>
+        <td>Registro y trazabilidad de cambios en el código fuente.</td>
+        <td>Facilita el trabajo colaborativo y evita conflictos.</td>
+      </tr>
+      <tr>
+        <td>Pruebas automatizadas</td>
+        <td>ISO 25000</td>
+        <td>Verificación automática de la funcionalidad del sistema SIS-FP.</td>
+        <td>Disminuye tiempo de prueba y aumenta confiabilidad.</td>
+      </tr>
+      <tr>
+        <td>Documentación estandarizada</td>
+        <td>CMMI</td>
+        <td>Uso de formatos únicos para registrar procesos y resultados.</td>
+        <td>Mejora la trazabilidad y facilita auditorías.</td>
+      </tr>
+      <tr>
+        <td>Retroalimentación continua</td>
+        <td>SCRUM</td>
+        <td>Evaluación constante de avances del software.</td>
+        <td>Mejora la comunicación y asegura la calidad final.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="instrumentos">
+    <h2>Instrumentos para la Documentación del Proceso</h2>
+
+    <h3>1. Lista de Verificación de Calidad</h3>
+    <table>
+      <tr>
+        <th>Aspecto Evaluado</th>
+        <th>Criterio</th>
+        <th>Cumple</th>
+        <th>Observaciones</th>
+      </tr>
+      <tr>
+        <td>Cumplimiento de requerimientos funcionales</td>
+        <td>Eficiencia</td>
+        <td>✅ Sí</td>
+        <td>Verificado mediante pruebas unitarias.</td>
+      </tr>
+      <tr>
+        <td>Legibilidad del código</td>
+        <td>Mantenibilidad</td>
+        <td>✅ Sí</td>
+        <td>Código comentado y formateado según estándar SPEC LNG.</td>
+      </tr>
+      <tr>
+        <td>Documentación técnica actualizada</td>
+        <td>Trazabilidad</td>
+        <td>✅ Sí</td>
+        <td>Siempre se debe actualizar la documentación del manual de instalación, en acaso de cambios.</td>
+      </tr>
+    </table>
+
+    <h3>2. Registro de Incidencias</h3>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Fecha</th>
+        <th>Descripción</th>
+        <th>Responsable</th>
+        <th>Estado</th>
+        <th>Acción Correctiva</th>
+      </tr>
+      <tr>
+        <td>INC-001</td>
+        <td>07/11/2025</td>
+        <td>Error en autenticación de usuarios</td>
+        <td>Dev Backend</td>
+        <td>Cerrada</td>
+        <td>Revisión del token JWT y validación en servidor.</td>
+      </tr>
+      <tr>
+        <td>INC-002</td>
+        <td>08/11/2025</td>
+        <td>Fallo de visualización en móviles</td>
+        <td>QA Tester</td>
+        <td>Abierta</td>
+        <td>Revisión de media queries en CSS.</td>
+      </tr>
+    </table>
+
+    <h3>3. Informe de Validación de Calidad</h3>
+    <table>
+      <tr>
+        <th>Fase</th>
+        <th>Actividad Evaluada</th>
+        <th>Resultado</th>
+        <th>Conclusión</th>
+      </tr>
+      <tr>
+        <td>Desarrollo</td>
+        <td>Codificación Backend</td>
+        <td>Satisfactorio</td>
+        <td>Código limpio, modular y con pruebas integradas.</td>
+      </tr>
+      <tr>
+        <td>Pruebas</td>
+        <td>Pruebas unitarias y de integración</td>
+        <td>Positivas</td>
+        <td>Superadas sin errores críticos.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="conclusiones">
+    <h2>Conclusiones</h2>
+    <p>
+      La aplicación de buenas prácticas de calidad dentro del <strong>SIS-FP Project</strong> permitió estandarizar el proceso de desarrollo,
+      documentar cada fase del proyecto y fortalecer la confiabilidad del sistema de seguridad portuaria.
+      Los instrumentos de calidad diseñados facilitan la trazabilidad, la comunicación entre equipos y la mejora continua,
+      asegurando que el producto final cumpla con los requisitos del cliente y las normas internacionales de calidad.
+    </p>
+  </section>
+
+  <footer>
+    <p><strong>Bibliografía:</strong></p>
+    <ul>
+      <li>ISO/IEC 25000:2014 – Systems and software Quality Requirements and Evaluation (SQuaRE).</li>
+      <li>SEI – CMMI Institute. Capability Maturity Model Integration for Development.</li>
+      <li>Pressman, R. S. (2019). Ingeniería del Software. McGraw-Hill.</li>
+      <li>Componente formativo SENA – Fundamentos de Calidad de Software (2024).</li>
+    </ul>
+    <p>© 2025 | Desarrollado por <strong>Jhon Jairo Mejía Ávila</strong> | SENA - Programa ADSO (2885525)</p>
+  </footer>
+</body>
+</html>
